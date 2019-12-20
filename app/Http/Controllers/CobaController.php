@@ -18,6 +18,7 @@ class CobaController extends Controller{
 
    public function gombal() {
         $Request1=$this->request->all();
+
         $Request2=$this->request->get("addres");
 
         dd($Request1,$Request2);

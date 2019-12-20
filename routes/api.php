@@ -31,4 +31,5 @@ Route::post('users/registration','UsersController@registration');
 
 Route::post('users/login','UsersController@login');
 
+Route::put('pengguna/cp','UsersController@cp');
 
